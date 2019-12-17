@@ -1,0 +1,69 @@
+{
+  "name": "egg-ws-server",
+  "version": "0.0.1-beta",
+  "description": "provide ws for egg.js",
+  "eggPlugin": {
+    "name": "wsServer",
+    "dependencies": [
+      "router"
+    ]
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "ws",
+    "websocket"
+  ],
+  "dependencies": {
+    "ws": "^7.3.1",
+    "await-first": "^1.0.0",
+    "egg-router": "^1.0.1",
+    "koa-compose": "^4.1.0",
+    "koa-convert": "1.2.0",
+    "is-generator-function": "^1.0.7",
+    "on-finished": "^2.3.0"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "index.js",
+    "config",
+    "agent.js",
+    "lib",
+    "app.js"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-ws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-ws#readme",
+  "author": "coffeeSouffle",
+  "license": "MIT"
+}

@@ -5,7 +5,7 @@
   "eggPlugin": {
     "name": "wsServer",
     "dependencies": [
-      "router"
+      "autorouter"
     ]
   },
   "keywords": [

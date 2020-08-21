@@ -2,7 +2,7 @@
 
 /** @type Egg.EggPlugin */
 module.exports = {
-  router: {
+  autorouter: {
     enable: true,
     package: 'egg-router',
   },

@@ -3478,9 +3478,9 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     is-extendable "^1.0.1"
 
 extend2@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/extend2/-/extend2-1.0.0.tgz#0425a989b4dac2a486a32257f5140103756a7a3c"
-  integrity sha1-BCWpibTawqSGoyJX9RQBA3Vqejw=
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/extend2/-/extend2-1.0.1.tgz#ba9eee03bd6608995990c309b8c285316671c221"
+  integrity sha512-ISoKeVhtewd5YHzMo+r9KC3Zx0fdpNBqoRzot+6BeEQ3bWQYQQOt0jkkY5gLveI2e7j+vdCJKeszHJIbg2Uceg==
 
 extend@^3.0.0, extend@^3.0.1, extend@~3.0.2:
   version "3.0.2"
@@ -4648,7 +4648,7 @@ koa-compose@^4.0.0, koa-compose@^4.1.0:
   resolved "https://registry.yarnpkg.com/koa-compose/-/koa-compose-4.1.0.tgz#507306b9371901db41121c812e923d0d67d3e877"
   integrity sha512-8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==
 
-koa-convert@^1.2.0:
+koa-convert@1.2.0, koa-convert@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/koa-convert/-/koa-convert-1.2.0.tgz#da40875df49de0539098d1700b50820cebcd21d0"
   integrity sha1-2kCHXfSd4FOQmNFwC1CCDOvNIdA=
